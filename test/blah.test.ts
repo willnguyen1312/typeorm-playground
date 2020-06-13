@@ -1,6 +1,7 @@
-import  '../src';
+import { start } from '../src';
 
 describe('blah', () => {
-  it('works', () => {
+  it('works', async () => {
+    await start();
   });
 });
